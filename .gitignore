@@ -43,3 +43,5 @@ node_modules/
 env
 core
 core
+# 忽略QGIS-Website/content/community-blogs文件中的内容，因为其中的有些文件名字将会在windows上存在问题，因此需要不应该上传，最终的解决方案是联系该repo仓库管理员进行解决。
+./scontent/community-blogs/*
